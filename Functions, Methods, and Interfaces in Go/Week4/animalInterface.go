@@ -59,7 +59,7 @@ func main() {
 	animalMap["cow"] = cow
 	animalMap["bird"] = bird
 	animalMap["snake"] = snake
-	fmt.Println("If you want to creat new animal, please enter like 'newanimal newanimal_name cow'(notice the type of the new animal can only be cow, bird or snake'; If you want to query for info, please enter like 'query animal_name info'(notice there is default animal name cow, bird and snake, and you can only query for info like eat, move or speak))")
+	// fmt.Println("If you want to creat new animal, please enter like 'newanimal newanimal_name cow'(notice the type of the new animal can only be cow, bird or snake'; If you want to query for info, please enter like 'query animal_name info'(notice there is default animal name cow, bird and snake, and you can only query for info like eat, move or speak))")
 	for {
 		var command, animal_name, type_or_method string
 		fmt.Print(">")
